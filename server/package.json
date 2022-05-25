@@ -1,0 +1,27 @@
+{
+  "name": "urlpcz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/twopcz/urlpcz.git",
+  "author": "Justin <info@justinle.me>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4",
+    "nanoid": "^3.3.4",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/config": "^0.0.41",
+    "@types/express": "^4.17.13",
+    "@types/nanoid": "^3.0.0",
+    "@types/node": "^17.0.35",
+    "@types/yup": "^0.29.14",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  }
+}
