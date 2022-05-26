@@ -8,3 +8,15 @@ export async function createShortUrl(req: Request, res: Response) {
 
     return res.send(newUrl);
 }
+
+export async function handleRedirect(req: Request, res: Response) {
+    const { shortId } = req.params;
+
+    const short = await shortUrl.findOne({ shortId }).lean();
+
+    if (!short) {
+        return res.sendStatus(404);
+    }
+
+    return res.redirect(short.destination);
+}
