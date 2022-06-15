@@ -1,5 +1,5 @@
 # urlpcz
-A URL shortener to share shorter, prettier looking links!
+A URL shortener to share shorter, prettier looking links! Deployed with Docker.
 
 ## Technologies
 
