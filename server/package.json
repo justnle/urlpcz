@@ -6,7 +6,8 @@
     "author": "Justin <info@justinle.me>",
     "license": "MIT",
     "scripts": {
-        "dev": "nodemon --config nodemon.json src/app.ts"
+        "dev": "nodemon --config nodemon.json src/app.ts",
+        "build": "tsc"
     },
     "dependencies": {
         "body-parser": "^1.20.0",
