@@ -5,7 +5,6 @@ A URL shortener to share shorter, prettier looking links!
 
 This application is built with:
 
--   [Express](https://expressjs.com/) - Back End Framework
 -   [MongoDB](https://www.mongodb.com/docs/) - Database Management
 -   [Node.js](https://nodejs.org/en/docs/) - Back End Runtime Environment
 -   [React.js](https://reactjs.org/docs/getting-started.html) - Front End Library
@@ -26,6 +25,7 @@ Dependencies:
  -   [body-parser](https://github.com/expressjs/body-parser#readme) - Body Parsing Middleware for Node.js
  -   [config](https://github.com/node-config/node-config#readme) - App Deployment Configurations
  -   [cors](https://github.com/expressjs/cors#readme) - CORS Middleware for Node.js
+ -   [express](https://expressjs.com/) - Back End Framework
  -   [mongoose](https://mongoosejs.com/docs/) - MongoDB Object Modeling for Node.js
  -   [nanoid](https://github.com/ai/nanoid#readme) - Unique String Generator for JS
  -   [yup](https://github.com/jquense/yup#readme) - Schema Builder
