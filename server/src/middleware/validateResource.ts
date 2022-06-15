@@ -11,8 +11,12 @@ const validateResource =
                 params: req.params
             });
             next();
-        } catch (e) {
-            return res.sendStatus(400);
+        } catch (err) {
+            if (err instanceof Error) {
+                return res.status(400).send(err);
+            } else {
+                console.log(`Unexpected error`, err);
+            }
         }
     };
 
